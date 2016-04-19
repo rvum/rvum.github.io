@@ -1,0 +1,309 @@
+body,div{
+    margin:0;
+    padding:0;
+}
+
+body{
+    /*background-color: #e2e2e2;*/
+    background: -webkit-linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    background: -o-linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    background: -moz-linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    background: linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+}
+
+#wrap
+{
+    width:878px;
+    background:#fff;
+    box-shadow:0 0 30px rgba(118, 221, 191, 0.9);
+    margin:25px auto 45px;
+    padding:30px 30px 15px;
+    border-radius: 3px;
+    min-height: 500px;
+}
+
+#header{
+    /*background-color: #43d4b0;*/
+    width:878px;
+    margin:0 auto;
+    padding:0 30px;
+    height:62px;
+    /*background: -webkit-linear-gradient(to left bottom,#43d4b0, #f9f9f9);
+    background: -o-linear-gradient(to left bottom,#43d4b0, #f9f9f9);
+    background: -moz-linear-gradient(to left bottom,#43d4b0, #f9f9f9);
+    background: linear-gradient(to left bottom,#43d4b0, #f9f9f9);*/
+    z-index:100;
+    border-bottom:solid 1px #bdbdbd;
+    /*position:absolute;*/
+}
+
+
+#header img{
+    margin-left: -30px;
+}
+
+#user{
+    width:46px;
+    height:46px;
+    background-color: rgb(60, 188, 155);
+    border-radius: 23px;
+    line-height:46px;
+    text-align:center;
+    margin-top:9px;
+    float:right;
+    overflow:hidden;
+}
+
+
+#word{
+    margin:20px auto;
+    font-size: 38px;
+    height:40px;
+    width:280px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#know,#unKnow{
+    border:solid 1px rgb(213,213,213);
+    margin:0 auto;
+    width:690px;
+    height:54px;
+    line-height:54px;
+    text-align: center;
+    color:#000;
+    background-image: url("./img/bg.png");
+}
+
+#explain{
+    position:absolute;
+    height:40px;
+    left:50%;
+    margin-left:255px;
+    margin-top:-40px;
+    width:88px;
+    background-color: rgb(68,158,132);
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#know{
+    margin-top:140px;
+}
+
+#know:hover,#know:focus,#know:active{
+    background-color: rgb(25,144,114);
+    color:#fff;
+    background-image: none;
+}
+
+#unKnow:hover,#unKnow:focus,#unKnow:active{
+    background-color: rgb(241,39,55);
+    color:#fff;
+    background-image: none;
+}
+
+#note,#addNote,#share{
+    left:50%;
+    height:40px;
+    width:230px;
+    margin-left:-115px;
+    margin-top:90px;
+    position:absolute;
+    line-height:40px;
+    text-align: center;
+    border-right: solid 2px #000000;
+    background-color:rgb(68,158,132) ;
+}
+
+#note{
+    margin-left:-347px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#addNote{
+
+}
+
+#share{
+    margin-left:117px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border:0;
+}
+
+/*----------------start.html******************/
+#title{
+    width:600px;
+    position:absolute;
+    left:50%;
+    margin-left:-300px;
+    text-align: center;
+    z-index: 100;
+    margin-top:20px;
+}
+
+#title span{
+    font-size:30px;
+    color:rgb(48,150,124);
+    font-weight:bold;
+}
+
+#wordNumb{
+    width:830px;
+    height:180px;
+    background-color: #eee;
+    border-radius: 5px;
+    position:absolute;
+    left:50%;
+    margin-left:-415px;
+    margin-top:150px;
+}
+
+#today,#new,#start{
+    width:150px;
+    height:150px;
+    position:absolute;
+    left:50%;
+    margin-left: -150px;
+    line-height: 150px;
+    text-align: center;
+    margin-top:15px;
+    font-size: 64px;
+    color:rgb(48,150,124);
+    font-weight: 900;
+}
+
+#today{
+    width:150px;
+    height:150px;
+    margin-left:-350px;
+}
+
+#start{
+    width:200px;
+    height:50px;
+    background-color: rgb(60, 186, 154);
+    margin-left:150px;
+    margin-top:65px;
+    line-height: 50px;
+    font-size:30px;
+    color:#fff;
+    border-radius: 5px;
+}
+
+#todayWords,#newWords{
+    position:absolute;
+    width:200px;
+    height:50px;
+    left:50%;
+    margin-top:100px;
+    margin-left:-375px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#newWords{
+    margin-left:-175px;
+}
+
+/*---------------explain.html----------------------*/
+#explainWord,#lookUpNote{
+    width:840px;
+    position:absolute;
+    left:50%;
+    margin-left:-420px;
+    margin-top:60px;
+    text-align: center;
+}
+
+#addToNote{
+    border:solid 2px rgb(60, 186, 154);
+    margin-top:90px;
+    height: 280px;
+    width:840px;
+    margin-bottom:60px;
+    overflow: scroll;
+    position:absolute;
+    left:50%;
+    margin-left: -420px;
+}
+
+#addToNote:focus,#addToNote:active,#addToNote:hover{
+    border:solid 2px rgb(60, 186, 154);
+
+}
+
+#submitNote1,#submitNote2{
+    position:absolute;
+    height:46px;
+    width:98px;
+    background-color: rgb(74, 173, 145);
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    margin-top:400px;
+    left:50%;
+    margin-left:324px;
+    border:0;
+    color:#fff;
+    font-weight:bold;
+}
+
+#submitNote2{
+    margin-left:200px;
+}
+
+/*-----------explain.html-----------------------------*/
+
+#explainWord{
+    overflow: scroll;
+    height:400px;
+}
+
+#nextWord{
+    position:absolute;
+    z-index: 1000;
+    width:78px;
+    height:78px;
+    left:85%;
+    background-image: url("./img/nextWord1.png");
+    margin-left:-80px;
+    top:50%;
+    margin-top:-39px;
+    border-top:solid 2px rgb(226,225,225);
+    border-bottom: solid 2px rgb(226,225,225);
+    border-right: solid 2px rgb(226,225,225);
+    border-left:solid 1px rgb(226,225,225);
+    border-radius: 8px;
+}
+
+#nextWord:hover,#nextWord:focus,#nextWord:active{
+    background-image:url("./img/nextWord2.png");
+    border:solid 2px rgb(31,142,114);
+    width:77px;
+    height:77px;
+}
+
+/*-----------share.html-----------------------------*/
+#sharedNote{
+    margin-top:90px;
+    height: 280px;
+    text-align: center;
+    width:840px;
+    margin-bottom:60px;
+    overflow: scroll;
+    position:absolute;
+    left:50%;
+    margin-left: -420px;
+}

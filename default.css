@@ -1,0 +1,193 @@
+body,div{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #dbdbdb;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+}
+#wrap{
+    /*background-color: #bebebe;*/
+    width:100%;
+    height:100%;
+}
+
+#header{
+    /*background-color: #43d4b0;*/
+    width:100%;
+    height:70px;
+    background: -webkit-linear-gradient(to left bottom,#43d4b0, #f9f9f9);
+    background: -o-linear-gradient(to left bottom,#43d4b0, #f9f9f9);
+    background: -moz-linear-gradient(to left bottom,#43d4b0, #f9f9f9);
+    background: linear-gradient(to left bottom,#43d4b0, #f9f9f9);
+    z-index:100;
+    position:absolute;
+}
+
+
+#header img{
+    position:absolute;
+    left:15%;
+}
+
+#user{
+    width:50px;
+    height:50px;
+    background-color: rgb(60, 188, 155);
+    border-radius: 25px;
+    line-height:50px;
+    text-align:center;
+    right:15%;
+    position:absolute;
+    margin-top:10px;
+    overflow:hidden;
+}
+
+/*#header_blank{*/
+    /*width:70%;*/
+    /*height:70px;*/
+    /*margin-top:70px;*/
+    /*position:absolute;*/
+    /*background-color: #dbdbdb;*/
+    /*border-radius: 15px;*/
+    /*left:15%;*/
+    /*z-index: 10000;*/
+/*}*/
+
+#main{
+    width:70%;
+    position:absolute;
+    min-height: 550px;
+    left:15%;
+    top:100px;
+    background-color: rgb(249,249,249);
+    border-radius: 15px;
+}
+
+#title1{
+    position:absolute;
+    left:5%;
+    z-index: 1000;
+    font-size: 24px;
+    top:20px;
+}
+
+#title2{
+    position:absolute;
+    left:5%;
+    z-index: 1000;
+    top:270px;
+    font-size: 24px;
+}
+
+#dictionary{
+    position:absolute;
+    top:80px;
+    width:90%;
+    left:5%;
+    height:160px;
+    margin-top:-20px;
+}
+
+#cet4{
+    position:absolute;
+    left:20%;
+}
+
+#cet4 img,#cet6 img{
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px #ddd;
+}
+#cet6{
+    position:absolute;
+    right:20%;
+}
+
+input{
+    position:absolute;
+    top:234px;
+    left:20%;
+}
+
+#cet4box{
+    left:20%;
+    margin-left:80px;
+}
+
+#cet6box{
+    left:80%;
+    margin-left:-80px;
+}
+
+#numb{
+    position:absolute;
+    top:310px;
+    width:90%;
+    left:5%;
+    height:160px;
+}
+
+.box{
+    width:15%;
+    height:100%;
+    position:absolute;
+    line-height:160px;
+    text-align: center;
+    background-color: rgb(60, 188, 155);
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px #ddd;
+}
+
+#fif{
+    left:10%;
+}
+
+#onh{
+    left:42.5%;
+}
+
+#fih{
+    left:75%;
+}
+
+
+#fifRad,#onhRad,#fihRad{
+    position:absolute;
+    top:480px;
+}
+
+#fifRad{
+    left:20%;
+}
+
+#onhRad{
+    left:49.5%;
+}
+
+#fihRad{
+    left:78.5%;
+}
+
+#next{
+    position:absolute;
+    z-index: 1000;
+    width:88px;
+    height:88px;
+    left:85%;
+    margin-left:-90px;
+    top:50%;
+    margin-top:-44px;
+    background-color: rgb(123, 230, 199);
+    border-radius: 5px;
+}
+
+#next img{
+    margin-top:20px;
+    margin-left:20px;
+}
+

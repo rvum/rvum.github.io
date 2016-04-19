@@ -1,0 +1,177 @@
+body,div{
+    margin:0;
+    padding:0;
+}
+
+#wrap{
+    position:absolute;
+    min-width: 800px;
+    width:100%;
+    height:100%;
+    background: -webkit-linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    background: -o-linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    background: -moz-linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    background: linear-gradient(to left bottom,rgb(48,150,124), #f9f9f9);
+    /*background-image:url("./img/light.png"),url("./img/bg.jpg");*/
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#header>img{
+    position:absolute;
+    left:30%;
+    top:2%;
+    z-index: 100;
+}
+
+#toLogin{
+    position:absolute;
+    right:30%;
+    top:2%;
+    margin-top:30px;
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    z-index:100;
+    margin-right:30px;
+    color:rgb(48,150,124);
+    font-weight:bold;
+}
+
+#toLoginImg{
+    position:absolute;
+    right:30%;
+    top:2%;
+    margin-top:33px;
+}
+
+
+#main{
+    width:40%;
+    background-color:#fff;
+    min-height:540px;
+    position:absolute;
+    left:30%;
+    top:2%;
+    margin-top:61px;
+    border-radius: 5px;
+}
+
+#reg{
+    position:absolute;
+    left:50%;
+    top:15%;
+    font-size:25px;
+    margin-left:-25px;
+    z-index: 100;
+    color:rgb(48,150,124);
+}
+#form{
+    position:absolute;
+    left:10%;
+    width:80%;
+    height:100%;
+}
+
+#form input{
+    border:none;
+}
+#usernameInput,#passwordInput,#surePasswordInput{
+    position:absolute;
+    width:70%;
+    left:15%;
+    top:30%;
+    height:34px;
+    border:solid 1px #989898;
+}
+
+#passwordInput{
+    top:42%;
+}
+
+#surePasswordInput{
+    top:54%;
+}
+
+#password,#surePassword,#username{
+    position:absolute;
+    left:25%;
+    width:60%;
+    top:30%;
+    height:30px;
+    margin-top:2px;
+    margin-left:-1px;
+}
+
+#icon1,#icon2,#icon3{
+    position:absolute;
+    left:15%;
+    width:26px;
+    height:26px;
+    margin-left:6px;
+    top:30%;
+    margin-top:6px;
+    border-right:solid 1px #989898;
+    z-index: 999;
+}
+
+#icon2,#password{
+    top:42%;
+}
+
+#icon3,#surePassword{
+    top:54%;
+}
+
+#icon2 img,#icon1 img,#icon3 img{
+    margin-top:3px;
+    opacity:.7;
+}
+
+#button{
+    position:absolute;
+    left:22%;
+    width:57%;
+    top:66%;
+    height:34px;
+    background-color: rgb(54, 170, 141);
+    border:none;
+}
+
+#agreement{
+    position:absolute;
+    left:20%;
+    width:60%;
+    top:78%;
+    height:30px;
+    font-size:13px;
+    margin-left:10px;
+}
+
+.wrongUser{
+    position:absolute;
+    color:red;
+    font-size:13px;
+    left:80%;
+    top:30%;
+    margin-top:10px;
+}
+
+.wrongPsw{
+    position:absolute;
+    color:red;
+    font-size:13px;
+    left:80%;
+    top:54%;
+    margin-top:10px;
+}
+
+.wrongLogin{
+    position:absolute;
+    color:red;
+    font-size:13px;
+    left:80%;
+    top:42%;
+    margin-top:10px;
+}
