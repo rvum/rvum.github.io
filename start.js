@@ -34,7 +34,7 @@ function init(){
         }
     }
 }
-
+//维他柠檬茶o
 user.onclick=function(){
     window.location.href="./default.html?"+username;
 };
